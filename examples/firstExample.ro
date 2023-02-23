@@ -1,0 +1,18 @@
+resource cook is human
+	after day 
+		+10 food
+
+resource drunkyard is human
+	after day
+		-1 rum
+
+resource human
+	after day
+		-1 food
+		-1 water
+
+resource food
+resource water
+
+event day
+event month aggregate 30 day

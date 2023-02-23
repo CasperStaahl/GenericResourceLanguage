@@ -1,0 +1,11 @@
+resource sailor is human
+	also after day
+		-1 rum
+resource human
+	after day
+		-1 food
+		-1 water
+
+resource food
+
+resource water

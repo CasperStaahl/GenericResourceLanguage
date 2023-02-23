@@ -1,0 +1,8 @@
+add 5 human
+add 1 cook
+add 30 food
+add 30 water
+event month
+event day
+add 2 water
+event fight
